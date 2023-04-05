@@ -12,5 +12,7 @@ COPY . /app
 # Install the application dependencies
 RUN npm install
 
+Expose 3000
+
 # Define the entry point for the container
 CMD ["npm", "start"]
